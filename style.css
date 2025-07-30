@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(image/ciudad-3-e1565900111723.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.9;
+}
+
+.menu {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 2px -2px rgb(238, 220, 220);
+    position: sticky;
+    top: 0;
+    background-color: rgb(252, 252, 252);
+    padding: 10px;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.titulo {
+    font-size: 50px;
+    color: #000;
+    margin-right: auto;
+
+}
+
+.inicio,
+.contactos,
+.descripcion {
+    font-size: 50px;
+    color: #000;
+    cursor: pointer;
+    margin: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+#rectificador {
+    width: 100%;
+}
+
+#descripcion {
+    margin: 5%;
+    background-color: rgb(119, 112, 112);
+    border-radius: 8%;
+    font-size: 40px;
+    font-family: cursive;
+    padding: 2%;
+    color: #000000;
+    text-align: justify;
+}
+
+.final {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2%;
+    background-color: rgba(90, 85, 81, 0.507);
+    box-shadow: 1px 1px 50px rgb(176, 185, 47);
+}
+
+#btn-mas {
+    display: none;
+}
+
+.container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.redes a,
+.btn-mas label {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    transition: all 500ms ease;
+}
+
+.fa-fa-facebook {
+    background-image: url(image/images.png);
+    background-size: contain;
+}
+
+.fa-fa-whatsapp {
+    background-image: url(image/whatsapp_logo_icon_186881.png);
+    background-size: contain;
+}
+
+.redes a {
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#btn-mas:checked~.redes a {
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.btn-mas label {
+    cursor: pointer;
+    background-image: url(image/63404071-positive-symbol-plus-sign-white-icon-on-red-circle.jpg);
+    background-size: contain;
+}
+
+#btn-mas:checked~.btn-mas label {
+    transform: rotate(135deg);
+    font-size: 25px;
+}
