@@ -152,6 +152,7 @@ a {
 .titulo {
     font-size: 50px;
     color: #000;
+    margin: 0 auto;
 }
 
 .inicio,
@@ -194,6 +195,7 @@ a {
 .titulo {
     font-size: 25px;
     color: #000;
+    margin: 0 auto;
     }
 #descripcion {
     margin: 5%;
