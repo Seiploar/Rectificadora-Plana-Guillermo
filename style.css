@@ -192,6 +192,7 @@ a {
     background-color: rgba(90, 85, 81, 0.507);
     box-shadow: 1px 1px 50px rgb(176, 185, 47);
 }
+   }
 @media (max-width: 480px) {
 
 .titulo {
